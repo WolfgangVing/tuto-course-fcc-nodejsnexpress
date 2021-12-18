@@ -19,3 +19,4 @@ const items = [1, [2, 5], [4, 6]]
 const newItems = _.flattenDeep(items);
 
 console.table(newItems)
+console.log("Hello, Nodemon!")

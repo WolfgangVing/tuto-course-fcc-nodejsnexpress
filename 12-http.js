@@ -4,8 +4,8 @@ const http = require("http")
 
 const server = http.createServer((req, res)=>{
     if(req.url === '/') {
-        console.log(res.statusCode)
-        res.end('Welcome to my short story');
+        console.log(`${res.statusCode} ${req.method}`)
+        res.end(`${req.headers}`);
     }
     if(req.url === '/about') {
         console.log(res.statusCode)
