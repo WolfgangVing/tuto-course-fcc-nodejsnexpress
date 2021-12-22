@@ -1,3 +1,4 @@
+//This is an synchronous approch to the modules 'fs'
 const {readFileSync, writeFileSync} = require('fs');
 // const fs = require("fs") importing all module and assigning to a variabel fs;
 
@@ -15,5 +16,5 @@ writeFileSync(
         }
         console.log(result)
     })
-//writeFileSync can be used to create logs and 
+//writeFileSync can be used to create logs
 
