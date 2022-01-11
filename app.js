@@ -1,0 +1,1 @@
+console.log("This is the tutorial/course about fundamentals of Node.js, is pretty identical to the source code.")
